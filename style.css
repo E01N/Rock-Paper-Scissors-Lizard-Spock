@@ -1,30 +1,17 @@
-
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
-body{
-    background-color: blueviolet;
-    justify-content: center;
+img{
+    max-width: 100%;
 }
 
-h2{
-    font-size: 40px;
-    color: #fff;
-    height: 60px;
-    text-align: center;
-    padding: 40px, 60px;
+.flex-row{
+    display: flex;
+    flex-flow: row nowrap;
 }
 
-button{ 
-    cursor: pointer;
-    position: relative;
-    width: 33%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 12px;
+.flex-column{
+    display: flex;
+    flex-flow: column nowrap;
 }
