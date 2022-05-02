@@ -26,9 +26,43 @@
   </section>
 
   <!--User Choice-->
-  
+  <section class="user-choice">
+    <div class="game-card scissors"><img src="images/icon-scissors.svg" alt=""></div>
+    <div class="game-card paper"><img src="images/icon-paper.svg" alt=""></div>
+    <div class="game-card rock"><img src="images/icon-rock.svg" alt=""></div>
+    <div class="game-card lizard"><img src="images/icon-lizard.svg" alt=""></div>
+    <div class="game-card spock"><img src="images/icon-spock.svg" alt=""></div>
+  </section>
 
+  <div class="section picked hidden">
+    <div class="choice">
+      <p>You Picked</p>
+      <div class="user-pick"></div>
+    </div>
 
+    <div class="result hidden">
+      <div class="title">You lose!</div>
+      <button>Play again</button>
+    </div>
+
+    <div class="choice"></div>
+    <p>The computer picked</p>
+    <div class="computer-pick"></div>
+  </div>
+
+  <button class="rules-btn">Rules</button>
+
+  <div class="modal-bg"></div>
+  <div class="modal">
+    <span class="close">
+      <img src="images/icon-close.svg" alt="">
+    </span>
+
+    <title>Rules</title>
+    <div class="content">
+      <img src="images/image-rules-bonus.svg" alt="">
+    </div>
+  </div>
 
   <script src="/script.js"></script>
 </body>
