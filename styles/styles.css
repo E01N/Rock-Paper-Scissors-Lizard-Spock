@@ -35,7 +35,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
-    background: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background: radial-gradient(circle at top, hsl(214, 44%, 40%), hsl(237, 49%, 15%));
 }
 
 .main-container {
@@ -59,18 +59,18 @@ body {
  /* Title block */
 
  .title-block {
-     justify-content: space-between;
-     width: 100%;
-     max-width: 700px;
-     border: 2px solid hsl(217, 16%, 45%);
-     border-radius: 15px;
-     padding: 17px 22px 16px 31px;
-     margin: 0 0 47px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    border: 2px solid hsl(217, 16%, 45%);
+    border-radius: 15px;
+    padding: 17px 22px 16px 31px;
+    margin: 0 0 47px;
  }
 
  .title-block ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
     font-size: 28px;
     line-height: 0.8;
     margin: 2px 0 0;
@@ -86,11 +86,11 @@ body {
  }
 
  .score-title {
-     color: hsl(229, 64%, 46%);
-     font-size: 20px;
-     font-weight: 700;
-     margin: 0 0 2px;
-     letter-spacing: 1px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 2px;
+    letter-spacing: 1px;
  }
 
  .score-count {
@@ -103,12 +103,12 @@ body {
  /* User choice */
 
  .user-choice {
-     background: center / contain no-repeat url(../images/bg-pentagon.svg);
-     background-size: 340px;
-     width: 100%;
-     max-width: 700px;
-     position: relative;
-     height: 467px;
+    background: center / contain no-repeat url(../images/bg-pentagon.svg);
+    background-size: 340px;
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    height: 467px;
  }
 
  .game-card {
@@ -124,20 +124,20 @@ body {
  }
 
  .game-card img {
-     position: relative;
-     z-index: 2;
+    position: relative;
+    z-index: 2;
  }
 
  .game-card:before {
-     content: '';
-     width: 115px;
-     height: 115px;
-     border-radius: 50%;
-     box-shadow: inset 0 3px 5px hsl(229, 25%, 31%);
-     background: rgba(255, 255, 255, 1);
-     position: absolute;
-     z-index: 1;
-     transition: background .3s ease, box-shadow .3s ease;
+    content: '';
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    box-shadow: inset 0 3px 5px hsl(229, 25%, 31%);
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 1;
+    transition: background .3s ease, box-shadow .3s ease;
 }
 
 .game-card:hover:before {
@@ -260,7 +260,7 @@ body {
     border-radius: 5px;
     position: absolute;
     right: 20px;
-    bottom: 100px;
+    bottom: 20px;
     cursor: pointer;
     color: #fff;
     background: linear-gradient(to left, transparent 50%, #fff 50%);
