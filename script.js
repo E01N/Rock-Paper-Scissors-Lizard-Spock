@@ -111,6 +111,22 @@ function updateScoreBoard() {
     window.localStorage.setItem('gameScore', currentScore);
 }
 
+//modal
+const rulesBtn = document.querySelector('.rules-btn');
+const modalBg = document.querySelector('.modal-bg');
+const modal = document.querySelector('.modal');
+
+rulesBtn.addEventListener('click', () =>{
+    modal.classList.add('active');
+    modalBg.classList.add('active');
+});
+
+document.querySelector('.close').addEventListener('click', hideModal);
+
+function hideModal(){
+    modal.classList.remove('active');
+    modalBg.classList.remove('active');
+}
 }
 
 game();
