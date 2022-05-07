@@ -35,7 +35,7 @@ body {
     align-items: center;
     min-height: 100vh;
     position: relative;
-    background: radial-gradient(circle at top, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background: radial-gradient(circle at top, rgba(31, 0, 205, 0.8), rgba(101, 124, 206, 0.8));
 }
 
 .main-container {
@@ -62,7 +62,7 @@ body {
      justify-content: space-between;
      width: 100%;
      max-width: 700px;
-     border: 2px solid hsl(217, 16%, 45%);
+     border: 2px solid hsl(0, 0%, 100%);
      border-radius: 15px;
      padding: 17px 22px 16px 31px;
      margin: 0 0 47px;
@@ -86,7 +86,7 @@ body {
  }
 
  .score-title {
-     color: hsl(229, 64%, 46%);
+     color: hsl(0, 100%, 49%);
      font-size: 20px;
      font-weight: 700;
      margin: 0 0 2px;
@@ -146,29 +146,29 @@ body {
 }
 
 .game-card.scissors {
-    background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
-    box-shadow: 0px 6px 0px 0px hsl(28, 75%, 44%);
+    background: linear-gradient(hsl(39, 89%, 57%), hsl(40, 89%, 65%));
+    box-shadow: 0px 6px 0px 0px hsl(39, 100%, 47%);
     top: 0;
     left: 278px;
 }
 
 .game-card.paper {
-    background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
-    box-shadow: 0px 6px 0px 0px hsl(229, 62%, 34%);
+    background: linear-gradient(hsl(305, 91%, 54%), hsl(305, 83%, 76%));
+    box-shadow: 0px 6px 0px 0px hsl(303, 51%, 48%);
     top: 130px;
     right: 115px;
 }
 
 .game-card.rock {
     background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
-    box-shadow: 0px 6px 0px 0px hsl(343, 70%, 30%);
+    box-shadow: 0px 6px 0px 0px hsl(343, 48%, 46%);
     bottom: 0;
     right: 178px;
 }
 
 .game-card.lizard {
-    background: linear-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
-    box-shadow: 0px 6px 0px 0px hsl(259, 48%, 38%);
+    background: linear-gradient(hsl(115, 95%, 48%), hsl(115, 90%, 72%));
+    box-shadow: 0px 6px 0px 0px hsl(115, 48%, 38%);
     bottom: 0;
     left: 180px;
 }
