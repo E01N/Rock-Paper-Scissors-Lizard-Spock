@@ -7,7 +7,8 @@ function game () {
     const pickedElement = document.querySelector('.picked');
     const userPickElement = document.querySelector('.user-pick');
     const pcPickElement = document.querySelector('.pc-pick');
-
+    const resultElement = document.querySelector('.result');
+    const resultTitleElement = resultElement.querySelector('.title');
 
     window.addEventListener('load', () => {
 
@@ -48,12 +49,11 @@ function getComputerChoice() {
 //generates winner
 function calculateWinner(user, comp) {
     if (user === comp) {
-        console.log("Draw");
+        resultTitleElement.innerText ='Draw';
     } else if (getUserWinStatus(user + comp)) {
-        console.log("You Win!");
-    }
-    else {
-        console.log("You Lose!");
+        resultTitleElement.innerText ='You Win!';
+    } else {
+        resultTitleElement.innerText ='You Lose!';    
     }
 }
 
