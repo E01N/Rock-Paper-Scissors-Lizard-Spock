@@ -5,6 +5,8 @@ function game () {
     let compChoice = '';
     const userChoiceElement = document.querySelector('.user-choice');
     const pickedElement = document.querySelector('.picked');
+    const userPickElement = document.querySelector('.user-pick');
+    const pcPickElement = document.querySelector('.pc-pick');
 
 
     window.addEventListener('load', () => {
@@ -25,6 +27,8 @@ function startGame() {
     calculateWinner(userChoice, compChoice);
     userChoiceElement.classList.add('hidden');
     pickedElement.classList.remove('hidden');
+    buildChoiceElement(true, userChoice);
+    buildChoiceElement(false, compChoice);
 }
 
 //pairs users click with corresponding choice
@@ -53,10 +57,21 @@ function calculateWinner(user, comp) {
     }
 }
 
-function getUserWinsStatus(result) {
+function getUserWinStatus(result) {
     return userWinResults.some(winStr => winStr === result);
 }
 
+
+function buildChoiceElement(isItUserElement, className){
+    Element = document.createElement('div');
+    Element.classList = [`game-card ${className}`];
+        Element.innerHTML = `<img src="/images/icon-${className}.svg" alt="${className}">`;
+    if (isItUserElement) {
+        userPickElement.append(Element);
+    }   else{
+        pcPickElement.append(Element);
+    }
+}
 
 }
 
