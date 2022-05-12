@@ -1,108 +1,142 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Rock, Paper, Scissors, Lizard, Spock
 
-Welcome Eoin Murphy,
+ Rock, Paper, Scissors, Lizard, Spock is the geek version of the classic Rock, Paper, Scissors game. Rock, Paper, Scissors, Lizard, Spock is created by [Sam Kass and Karen Bryla.](http://www.samkass.com/theories/RPSSL.html)
+ 
+  
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ 
+![Responsive Mockup](images/responsive-mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## [View the deployed website here!](https://e01n.github.io/Project-Portfolio-2/)
 ---
 
-Happy coding!
+
+# User experience (UX)
+
+- ## User Story
+
+- __Visitors__
+  - The users of the site should imediatly recognise how the games works.
+
+  - The users should find the buttons interactive and responsive.
+
+  - The users should find the game easy to navigate and fun to play. 
+
+
+
+ # Design
+- __Colour Scheme__
+
+  - The site has an array of different colours, all which are eaisly distiguishable from each other.
+
+- __Typography__
+
+  - The main font for the site is Barlow Semi Condensed with Sans-Serif as back-up. I used the back-up font Sans-serif because most browsers will be compatiable with it.
+
+- __Imagery__
+
+  - The website uses simple yet effective images which clearly indicate each option. The images are used make the user want to play the game and interact with the website.
+
+# Technologies Used
+
+- __Languages__
+
+  - HTML
+  - CSS
+  - JavaScript
+
+# Features
+
+
+- __Header__
+  - The header is centered at the top of the screen with a simple design with the name on the left.
+  - The score count is located at the right of the header with a contrasting background so that the user can easily see it. The score counter will keep track of the users progress.
+
+  ![Header](images/header.png)
+ 
+- __Game box__
+
+    - The game box is at the center of the page so that it is obvious to the user. 
+    - The game box has five different options to choose from which are all coloured individually so that 
+    
+  ![Game-Box](images/game-box.png)
+
+- __The rules button__
+    - The rules button is at the bottom right of the page for easy access to the user.
+
+    - When the user clicks on the button a modal box will pop up with the rules of the game. 
+
+![Rules](images/rules.png)
+
+- __Game Buttons__
+
+    - The user can clearly see the different choices of rock, paper, scissors, lizard, spock.
+
+    - Using icons for the buttons gives a clear understanding what the user is pressing. 
+
+    - The mouse curser changes to a pointer so the user understands that this is a button.
+
+    - The buttons colour fills the area when the user hovers over it with the mouse. It's striking and will attract the users attention.
+
+![Hover](images/hover.png)
+
+- __Player and computer choices__
+
+    - This area of the game shows what the user picked and what the computer picked. 
+
+    - Font colour in white for contrast against purple background, so it's  clear for the user to see. 
+
+    - the users choice will display next to the "You Picked:" and "The Computer picked:" statements.
+
+    - In this area the user can clearly see the outcome of the round
+
+    - The outcome will be displayed in the center of the page 
+
+    - If the user wins "YOU WIN!" will be displayed, if the users looses the round "YOU LOSE!" will be shown and if it's a draw "DRAW" will be shown
+
+
+![Results](images/results.png)
+
+- __Play again button__
+
+    - The play again button takes the user back to select another option for the next round.
+
+    - The button has a color transition when hovered over. 
+
+# Testing
+
+  ### Accesibility Testing 
+
+- I used Lighthouse DevTools test to assess the pages accesibility and it scored an overall of 97
+![Lighthouse Test](images/accesibility%20test.png)
+
+### Validator Testing 
+
+- HTML
+  - No errors and one warning were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fe01n.github.io%2FProject-1%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fe01n.github.io%2FProject-Portfolio-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Javscript
+
+    - The javascript page was put through Js Hint and came out with no errors.
+
+# Deployment
+
+- Deployment of the site was done on GitHub. The steps of how are as follows:
+
+    - Click on repository "portfolio-project-2" from my account. From there navigate to settings.
+
+    - On the left side of the page under "code and automation" click on pages.
+
+    - Select "main" in the Branch, then you will be provided a link that will take youto the completed website
+
+# Credits
+
+## content
+
+- While reserching for this project i came across [FrontEndMentor.io](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub/rock-paper-scissors-game-r1bgjB6Hq) where there is a challenge for this project. There are assets, JPG images of the design files and a basic style guide for you to use, so i took advantage of that and used it as a foundation of this project.
+
+- Part of my javascipt code was taken from a youtube video found [here.](https://www.youtube.com/watch?v=lV2BMXdsDmc)
+
+- I was helped a lot from the community at [stackoverflow.com](https://stackoverflow.com/) where i was able to find answers to problems i came across during the coding of this project.
