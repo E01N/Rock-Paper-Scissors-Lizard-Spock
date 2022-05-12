@@ -119,6 +119,11 @@
 
     - The javascript page was put through Js Hint and came out with no errors.
 
+# Unfixed Bugs
+
+-  For some reason the chosen icons dont show in my deployed website but work perfectly in the live server and i can't seem to figure out why
+-  The rules modal isn't centered.
+
 # Deployment
 
 - Deployment of the site was done on GitHub. The steps of how are as follows:
