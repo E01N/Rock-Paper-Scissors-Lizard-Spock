@@ -131,8 +131,6 @@
 
 # Credits
 
-## content
-
 - While reserching for this project i came across [FrontEndMentor.io](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub/rock-paper-scissors-game-r1bgjB6Hq) where there is a challenge for this project. There are assets, JPG images of the design files and a basic style guide for you to use, so i took advantage of that and used it as a foundation of this project.
 
 - Part of my javascipt code was taken from a youtube video found [here.](https://www.youtube.com/watch?v=lV2BMXdsDmc)
