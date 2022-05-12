@@ -23,11 +23,11 @@ function game () {
             compChoice = getComputerChoice ();
 
             startGame();
-        })
+        });
     });
 
     resultElement.querySelector('button').addEventListener('click', tryAgain);
-})
+});
 
 //game starts after user makes their pick 
 function startGame() {
