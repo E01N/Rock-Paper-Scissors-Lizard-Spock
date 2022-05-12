@@ -13,8 +13,6 @@
 
 # User experience (UX)
 
-- ## User Story
-
 - __Visitors__
   - The users of the site should imediatly recognise how the games works.
 
