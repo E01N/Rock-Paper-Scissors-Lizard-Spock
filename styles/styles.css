@@ -296,7 +296,8 @@ body {
     max-width: 500px;
     padding: 40px 30px 30px;
     border-radius: 10px;
-    top: 40px;
+    top: 25%;
+    right: 37%;
 }
 
 .modal .close {
