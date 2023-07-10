@@ -7,7 +7,7 @@
  
 ![Responsive Mockup](images/responsive-mockup.png)
 
-## [View the deployed website here!](https://e01n.github.io/Project-Portfolio-2/)
+## [View the deployed website here!](https://e01n.github.io/Rock-Paper-Scissors-Lizard-Spock/))
 ---
 
 
