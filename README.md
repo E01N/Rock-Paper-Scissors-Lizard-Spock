@@ -123,7 +123,7 @@
 
 - Deployment of the site was done on GitHub. The steps of how are as follows:
 
-    - Click on repository "portfolio-project-2" from my account. From there navigate to settings.
+    - Click on repository "Rock-Paper-Scissors-Lizard-Spock" from my account. From there navigate to settings.
 
     - On the left side of the page under "code and automation" click on pages.
 
